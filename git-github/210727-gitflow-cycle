@@ -1,0 +1,15 @@
+협업 시 git flow 사용법
+1. 깃헙에서 fork한 후 주소를 복사한다.
+2. 복사한 주소를 clone한다.
+3. git flow init
+4. git branch (develop에서 시작)
+5. git flow feature finish 브랜치명(새 브랜치 & 브랜치 스위치)
+6. 파일 생성(수정) -> add -> commit
+7. git flow feature finish 브랜치명(브랜치 변경, merge, 서브랜치 삭제)
+8. git flow release start 버전
+9. git flow release finish 버전
+10. git push -u origin develop
+11. push
+12. git switch amin
+13. git tag
+14. git push --tags
